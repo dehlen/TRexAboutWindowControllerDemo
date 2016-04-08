@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		403B47BD1CB7CB0F00D2BAFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B47BC1CB7CB0F00D2BAFB /* AppDelegate.swift */; };
+		403B47BF1CB7CB0F00D2BAFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B47BE1CB7CB0F00D2BAFB /* ViewController.swift */; };
+		403B47C11CB7CB0F00D2BAFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403B47C01CB7CB0F00D2BAFB /* Assets.xcassets */; };
+		403B47C41CB7CB0F00D2BAFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 403B47C21CB7CB0F00D2BAFB /* Main.storyboard */; };
+		403B47CF1CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B47CE1CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoTests.swift */; };
+		403B47DA1CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B47D91CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		403B47CB1CB7CB0F00D2BAFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 403B47B11CB7CB0F00D2BAFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 403B47B81CB7CB0F00D2BAFB;
+			remoteInfo = TRexAboutWindowControllerDemo;
+		};
+		403B47D61CB7CB0F00D2BAFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 403B47B11CB7CB0F00D2BAFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 403B47B81CB7CB0F00D2BAFB;
+			remoteInfo = TRexAboutWindowControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		403B47B91CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRexAboutWindowControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		403B47BC1CB7CB0F00D2BAFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		403B47BE1CB7CB0F00D2BAFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		403B47C01CB7CB0F00D2BAFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		403B47C31CB7CB0F00D2BAFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		403B47C51CB7CB0F00D2BAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		403B47CA1CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRexAboutWindowControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		403B47CE1CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRexAboutWindowControllerDemoTests.swift; sourceTree = "<group>"; };
+		403B47D01CB7CB0F00D2BAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		403B47D51CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRexAboutWindowControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		403B47D91CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRexAboutWindowControllerDemoUITests.swift; sourceTree = "<group>"; };
+		403B47DB1CB7CB0F00D2BAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		403B47B61CB7CB0F00D2BAFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403B47C71CB7CB0F00D2BAFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403B47D21CB7CB0F00D2BAFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		403B47B01CB7CB0F00D2BAFB = {
+			isa = PBXGroup;
+			children = (
+				403B47BB1CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemo */,
+				403B47CD1CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoTests */,
+				403B47D81CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoUITests */,
+				403B47BA1CB7CB0F00D2BAFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		403B47BA1CB7CB0F00D2BAFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				403B47B91CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemo.app */,
+				403B47CA1CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoTests.xctest */,
+				403B47D51CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		403B47BB1CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				403B47BC1CB7CB0F00D2BAFB /* AppDelegate.swift */,
+				403B47BE1CB7CB0F00D2BAFB /* ViewController.swift */,
+				403B47C01CB7CB0F00D2BAFB /* Assets.xcassets */,
+				403B47C21CB7CB0F00D2BAFB /* Main.storyboard */,
+				403B47C51CB7CB0F00D2BAFB /* Info.plist */,
+			);
+			path = TRexAboutWindowControllerDemo;
+			sourceTree = "<group>";
+		};
+		403B47CD1CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				403B47CE1CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoTests.swift */,
+				403B47D01CB7CB0F00D2BAFB /* Info.plist */,
+			);
+			path = TRexAboutWindowControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		403B47D81CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				403B47D91CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoUITests.swift */,
+				403B47DB1CB7CB0F00D2BAFB /* Info.plist */,
+			);
+			path = TRexAboutWindowControllerDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		403B47B81CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 403B47DE1CB7CB0F00D2BAFB /* Build configuration list for PBXNativeTarget "TRexAboutWindowControllerDemo" */;
+			buildPhases = (
+				403B47B51CB7CB0F00D2BAFB /* Sources */,
+				403B47B61CB7CB0F00D2BAFB /* Frameworks */,
+				403B47B71CB7CB0F00D2BAFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRexAboutWindowControllerDemo;
+			productName = TRexAboutWindowControllerDemo;
+			productReference = 403B47B91CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		403B47C91CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 403B47E11CB7CB0F00D2BAFB /* Build configuration list for PBXNativeTarget "TRexAboutWindowControllerDemoTests" */;
+			buildPhases = (
+				403B47C61CB7CB0F00D2BAFB /* Sources */,
+				403B47C71CB7CB0F00D2BAFB /* Frameworks */,
+				403B47C81CB7CB0F00D2BAFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				403B47CC1CB7CB0F00D2BAFB /* PBXTargetDependency */,
+			);
+			name = TRexAboutWindowControllerDemoTests;
+			productName = TRexAboutWindowControllerDemoTests;
+			productReference = 403B47CA1CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		403B47D41CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 403B47E41CB7CB0F00D2BAFB /* Build configuration list for PBXNativeTarget "TRexAboutWindowControllerDemoUITests" */;
+			buildPhases = (
+				403B47D11CB7CB0F00D2BAFB /* Sources */,
+				403B47D21CB7CB0F00D2BAFB /* Frameworks */,
+				403B47D31CB7CB0F00D2BAFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				403B47D71CB7CB0F00D2BAFB /* PBXTargetDependency */,
+			);
+			name = TRexAboutWindowControllerDemoUITests;
+			productName = TRexAboutWindowControllerDemoUITests;
+			productReference = 403B47D51CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		403B47B11CB7CB0F00D2BAFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "David Ehlen";
+				TargetAttributes = {
+					403B47B81CB7CB0F00D2BAFB = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					403B47C91CB7CB0F00D2BAFB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 403B47B81CB7CB0F00D2BAFB;
+					};
+					403B47D41CB7CB0F00D2BAFB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 403B47B81CB7CB0F00D2BAFB;
+					};
+				};
+			};
+			buildConfigurationList = 403B47B41CB7CB0F00D2BAFB /* Build configuration list for PBXProject "TRexAboutWindowControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 403B47B01CB7CB0F00D2BAFB;
+			productRefGroup = 403B47BA1CB7CB0F00D2BAFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				403B47B81CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemo */,
+				403B47C91CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoTests */,
+				403B47D41CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		403B47B71CB7CB0F00D2BAFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403B47C11CB7CB0F00D2BAFB /* Assets.xcassets in Resources */,
+				403B47C41CB7CB0F00D2BAFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403B47C81CB7CB0F00D2BAFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403B47D31CB7CB0F00D2BAFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		403B47B51CB7CB0F00D2BAFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403B47BF1CB7CB0F00D2BAFB /* ViewController.swift in Sources */,
+				403B47BD1CB7CB0F00D2BAFB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403B47C61CB7CB0F00D2BAFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403B47CF1CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403B47D11CB7CB0F00D2BAFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403B47DA1CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		403B47CC1CB7CB0F00D2BAFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 403B47B81CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemo */;
+			targetProxy = 403B47CB1CB7CB0F00D2BAFB /* PBXContainerItemProxy */;
+		};
+		403B47D71CB7CB0F00D2BAFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 403B47B81CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemo */;
+			targetProxy = 403B47D61CB7CB0F00D2BAFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		403B47C21CB7CB0F00D2BAFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				403B47C31CB7CB0F00D2BAFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		403B47DC1CB7CB0F00D2BAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		403B47DD1CB7CB0F00D2BAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		403B47DF1CB7CB0F00D2BAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TRexAboutWindowControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.david-ehlen.TRexAboutWindowControllerDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		403B47E01CB7CB0F00D2BAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TRexAboutWindowControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.david-ehlen.TRexAboutWindowControllerDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		403B47E21CB7CB0F00D2BAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TRexAboutWindowControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.david-ehlen.TRexAboutWindowControllerDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TRexAboutWindowControllerDemo.app/Contents/MacOS/TRexAboutWindowControllerDemo";
+			};
+			name = Debug;
+		};
+		403B47E31CB7CB0F00D2BAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TRexAboutWindowControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.david-ehlen.TRexAboutWindowControllerDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TRexAboutWindowControllerDemo.app/Contents/MacOS/TRexAboutWindowControllerDemo";
+			};
+			name = Release;
+		};
+		403B47E51CB7CB0F00D2BAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TRexAboutWindowControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.david-ehlen.TRexAboutWindowControllerDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TRexAboutWindowControllerDemo;
+			};
+			name = Debug;
+		};
+		403B47E61CB7CB0F00D2BAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TRexAboutWindowControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.david-ehlen.TRexAboutWindowControllerDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TRexAboutWindowControllerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		403B47B41CB7CB0F00D2BAFB /* Build configuration list for PBXProject "TRexAboutWindowControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403B47DC1CB7CB0F00D2BAFB /* Debug */,
+				403B47DD1CB7CB0F00D2BAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		403B47DE1CB7CB0F00D2BAFB /* Build configuration list for PBXNativeTarget "TRexAboutWindowControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403B47DF1CB7CB0F00D2BAFB /* Debug */,
+				403B47E01CB7CB0F00D2BAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		403B47E11CB7CB0F00D2BAFB /* Build configuration list for PBXNativeTarget "TRexAboutWindowControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403B47E21CB7CB0F00D2BAFB /* Debug */,
+				403B47E31CB7CB0F00D2BAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		403B47E41CB7CB0F00D2BAFB /* Build configuration list for PBXNativeTarget "TRexAboutWindowControllerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403B47E51CB7CB0F00D2BAFB /* Debug */,
+				403B47E61CB7CB0F00D2BAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 403B47B11CB7CB0F00D2BAFB /* Project object */;
+}
