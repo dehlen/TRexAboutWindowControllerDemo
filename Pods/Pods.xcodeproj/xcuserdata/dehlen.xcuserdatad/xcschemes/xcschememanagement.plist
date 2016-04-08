@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-TRexAboutWindowControllerDemo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TRexAboutWindowControllerDemoTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TRexAboutWindowControllerDemoUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TRexAboutWindowController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>591D7710FD2F2B7DEF99BD3F2CBF7E1E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5D6626FB8E22B0E86C526AD7379B848F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>89A0AAA608C33B5FA80BC116DD938066</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E905445CDEBCADF6E99676FDA234ECB1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

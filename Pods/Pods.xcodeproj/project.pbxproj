@@ -1,0 +1,831 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		053D72856B4A49A12AFFA26879610B8E /* Pods-TRexAboutWindowControllerDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C6D8A836152262241C5BA9D47BD988B /* Pods-TRexAboutWindowControllerDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5195C78B8C30B35F59C17FAD5ACB4093 /* TRexAboutWindowController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5497B5E6A506DADC9FE711B493AB3F38 /* TRexAboutWindowController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		613B415C315953936881D2C18678A321 /* Pods-TRexAboutWindowControllerDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F57F6628FAA27900421BE44CA15BCD7 /* Pods-TRexAboutWindowControllerDemoUITests-dummy.m */; };
+		62E1FBB6396459C8306F3FC1865B6009 /* Pods-TRexAboutWindowControllerDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA3FBC4BCE83C84570BEA12F758DD20B /* Pods-TRexAboutWindowControllerDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62F363901BE7E6A84DAC6579B6B24B3C /* Pods-TRexAboutWindowControllerDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B70B7579CF50BFDFD68D9AE21E81F8 /* Pods-TRexAboutWindowControllerDemoTests-dummy.m */; };
+		63F08287711A8D0A36AEFC8693DD638B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */; };
+		6C323A2F3AAF048604B9159E19AEC3F1 /* TRexAboutWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A383FB71C2C505C78606BCA775658DA /* TRexAboutWindowController.swift */; };
+		982741A7B4127BE263699EBDBBE77D95 /* PFAboutWindow.xib in Sources */ = {isa = PBXBuildFile; fileRef = 1894630AFD058BCE9CD5995A420AF58B /* PFAboutWindow.xib */; };
+		996749DE799E9DB6E83E2320744D54AC /* TRexAboutWindowController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCC0E2700605B82B86159212CDA738D /* TRexAboutWindowController-dummy.m */; };
+		CC1A142DE6E8ABA649D601D236D411E9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */; };
+		D8C97FC22502403BEE4530F3AE3A5303 /* Pods-TRexAboutWindowControllerDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37994839043C5E1D02852426B7B0AB3E /* Pods-TRexAboutWindowControllerDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE273A5BB22441EA9DF297C78C7C3DB2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */; };
+		E4078BE0D0D95D23E94175C72887C346 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */; };
+		EAE2ADDB628560494E099F8F8D8BA4C9 /* Pods-TRexAboutWindowControllerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB2770F2EBA4C17D50C7BC7EF4FB5EA /* Pods-TRexAboutWindowControllerDemo-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02C28A3978CBDC42D043F2FE6C1616DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 591D7710FD2F2B7DEF99BD3F2CBF7E1E;
+			remoteInfo = TRexAboutWindowController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A0CD34ECE57664BE2EFC44635B991A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01F4E2C9D9A0DA45FF7A9AFB6AC3E2FC /* Pods-TRexAboutWindowControllerDemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRexAboutWindowControllerDemoUITests-resources.sh"; sourceTree = "<group>"; };
+		0348070147ED545F64C009716C473F06 /* Pods_TRexAboutWindowControllerDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRexAboutWindowControllerDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		064C99C9D6A2E3FF4FBD15B714EC6CE0 /* TRexAboutWindowController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRexAboutWindowController-prefix.pch"; sourceTree = "<group>"; };
+		1894630AFD058BCE9CD5995A420AF58B /* PFAboutWindow.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PFAboutWindow.xib; path = TRexAboutWindowController/PFAboutWindow.xib; sourceTree = "<group>"; };
+		1C5C05CB7AB89CA8D70DE7E1B441A462 /* TRexAboutWindowController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TRexAboutWindowController.modulemap; sourceTree = "<group>"; };
+		1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		1EB2770F2EBA4C17D50C7BC7EF4FB5EA /* Pods-TRexAboutWindowControllerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TRexAboutWindowControllerDemo-dummy.m"; sourceTree = "<group>"; };
+		2D031361E8DA95DEF0DF16CB00666B4A /* Pods-TRexAboutWindowControllerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TRexAboutWindowControllerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		2D13C5965E24ED50AE6AC27CF8E30ECE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		315A45CF9A9C046868A917A0D643FAC5 /* Pods-TRexAboutWindowControllerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRexAboutWindowControllerDemo-frameworks.sh"; sourceTree = "<group>"; };
+		3356901E5D1030FB08E790FE2C4DD142 /* Pods-TRexAboutWindowControllerDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TRexAboutWindowControllerDemoUITests.modulemap"; sourceTree = "<group>"; };
+		37994839043C5E1D02852426B7B0AB3E /* Pods-TRexAboutWindowControllerDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TRexAboutWindowControllerDemoTests-umbrella.h"; sourceTree = "<group>"; };
+		3A383FB71C2C505C78606BCA775658DA /* TRexAboutWindowController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TRexAboutWindowController.swift; path = TRexAboutWindowController/TRexAboutWindowController.swift; sourceTree = "<group>"; };
+		40B70B7579CF50BFDFD68D9AE21E81F8 /* Pods-TRexAboutWindowControllerDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TRexAboutWindowControllerDemoTests-dummy.m"; sourceTree = "<group>"; };
+		41991B8BB6CB566BB09212A164DE4001 /* Pods_TRexAboutWindowControllerDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRexAboutWindowControllerDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8C74FA0DA48D6F31D3A5D4BD2909C2 /* Pods-TRexAboutWindowControllerDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TRexAboutWindowControllerDemoTests.modulemap"; sourceTree = "<group>"; };
+		4BCC0E2700605B82B86159212CDA738D /* TRexAboutWindowController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TRexAboutWindowController-dummy.m"; sourceTree = "<group>"; };
+		4F57F6628FAA27900421BE44CA15BCD7 /* Pods-TRexAboutWindowControllerDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TRexAboutWindowControllerDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		507BFA7AA8BB57162A0F2FF11DF3FDFC /* Pods_TRexAboutWindowControllerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRexAboutWindowControllerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5497B5E6A506DADC9FE711B493AB3F38 /* TRexAboutWindowController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRexAboutWindowController-umbrella.h"; sourceTree = "<group>"; };
+		57976E279D4D6C862F0065279CAE0B67 /* Pods-TRexAboutWindowControllerDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRexAboutWindowControllerDemo-resources.sh"; sourceTree = "<group>"; };
+		6A49877846C3DC53B449A2A964AD0AF6 /* Pods-TRexAboutWindowControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRexAboutWindowControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6BA086F17683CE7095B086FB0F37B46C /* Pods-TRexAboutWindowControllerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRexAboutWindowControllerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		6C6D8A836152262241C5BA9D47BD988B /* Pods-TRexAboutWindowControllerDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TRexAboutWindowControllerDemo-umbrella.h"; sourceTree = "<group>"; };
+		7349E0398CD022C3F3AD4106100C1426 /* Pods-TRexAboutWindowControllerDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TRexAboutWindowControllerDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8738EAB4CC1CBE75F9142D01F6519758 /* Pods-TRexAboutWindowControllerDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRexAboutWindowControllerDemoTests-frameworks.sh"; sourceTree = "<group>"; };
+		8AB5218290589248C828F50EA58894F9 /* Pods-TRexAboutWindowControllerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRexAboutWindowControllerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8D898507E3C3F241CBD63784648BFD9C /* Pods-TRexAboutWindowControllerDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TRexAboutWindowControllerDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		956C27704A691C825918B5AA7687C40A /* TRexAboutWindowController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TRexAboutWindowController.xcconfig; sourceTree = "<group>"; };
+		9942DCB6938B37908ABF00672AA49D94 /* Pods-TRexAboutWindowControllerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRexAboutWindowControllerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D195BBA75B6427F9E5C6D65EC1B3DAB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4D9A65D8FEEECE0F46A074DA3EF83D7 /* Pods-TRexAboutWindowControllerDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TRexAboutWindowControllerDemo.modulemap"; sourceTree = "<group>"; };
+		B30D0B64382DCF41EA14A52C8BE30654 /* Pods-TRexAboutWindowControllerDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRexAboutWindowControllerDemoTests-resources.sh"; sourceTree = "<group>"; };
+		B673EFFE99D4CEB7B75D0FC472BD70A0 /* Pods-TRexAboutWindowControllerDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TRexAboutWindowControllerDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C176FE4B3CE38BCA1B45D7E8D7005F5F /* Pods-TRexAboutWindowControllerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TRexAboutWindowControllerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CE06578CA0839BD710A6A1980A8B42AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E99E69366EAAFD83165E96A719025A72 /* Pods-TRexAboutWindowControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRexAboutWindowControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EA3FBC4BCE83C84570BEA12F758DD20B /* Pods-TRexAboutWindowControllerDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TRexAboutWindowControllerDemoUITests-umbrella.h"; sourceTree = "<group>"; };
+		ED7907A80BD5D570FACF1E69B93DA236 /* Pods-TRexAboutWindowControllerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRexAboutWindowControllerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE8AF97723597D9E4B603B34F804D6FA /* Pods-TRexAboutWindowControllerDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRexAboutWindowControllerDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		F04B0640F59D893278877EF156AFB38E /* Pods-TRexAboutWindowControllerDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TRexAboutWindowControllerDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F325E9215C790D9089106261F0A18C4D /* TRexAboutWindowController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TRexAboutWindowController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F29E79859B8AB8B1C90FA99468C772D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F08287711A8D0A36AEFC8693DD638B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777A0703A502017699A7CA8E65FBC297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE273A5BB22441EA9DF297C78C7C3DB2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C14B2A9DEF42636D8022A3F5AB937EC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1A142DE6E8ABA649D601D236D411E9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB7B9D57098E7929DBDC0DCFF87D8B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4078BE0D0D95D23E94175C72887C346 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03BE1619FADC4CE08EDC8B7AFBFA644F /* TRexAboutWindowController */ = {
+			isa = PBXGroup;
+			children = (
+				1894630AFD058BCE9CD5995A420AF58B /* PFAboutWindow.xib */,
+				3A383FB71C2C505C78606BCA775658DA /* TRexAboutWindowController.swift */,
+				44109449AC5191896CFDCEBC9F677CCA /* Support Files */,
+			);
+			path = TRexAboutWindowController;
+			sourceTree = "<group>";
+		};
+		28C17CEF104526ACA07B6EEE217EC43E /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28C17CEF104526ACA07B6EEE217EC43E /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44109449AC5191896CFDCEBC9F677CCA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE06578CA0839BD710A6A1980A8B42AE /* Info.plist */,
+				1C5C05CB7AB89CA8D70DE7E1B441A462 /* TRexAboutWindowController.modulemap */,
+				956C27704A691C825918B5AA7687C40A /* TRexAboutWindowController.xcconfig */,
+				4BCC0E2700605B82B86159212CDA738D /* TRexAboutWindowController-dummy.m */,
+				064C99C9D6A2E3FF4FBD15B714EC6CE0 /* TRexAboutWindowController-prefix.pch */,
+				5497B5E6A506DADC9FE711B493AB3F38 /* TRexAboutWindowController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TRexAboutWindowController";
+			sourceTree = "<group>";
+		};
+		71A8845A196F6B67A2952BC5A0D2258B /* Pods-TRexAboutWindowControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				01A0CD34ECE57664BE2EFC44635B991A /* Info.plist */,
+				4B8C74FA0DA48D6F31D3A5D4BD2909C2 /* Pods-TRexAboutWindowControllerDemoTests.modulemap */,
+				7349E0398CD022C3F3AD4106100C1426 /* Pods-TRexAboutWindowControllerDemoTests-acknowledgements.markdown */,
+				F04B0640F59D893278877EF156AFB38E /* Pods-TRexAboutWindowControllerDemoTests-acknowledgements.plist */,
+				40B70B7579CF50BFDFD68D9AE21E81F8 /* Pods-TRexAboutWindowControllerDemoTests-dummy.m */,
+				8738EAB4CC1CBE75F9142D01F6519758 /* Pods-TRexAboutWindowControllerDemoTests-frameworks.sh */,
+				B30D0B64382DCF41EA14A52C8BE30654 /* Pods-TRexAboutWindowControllerDemoTests-resources.sh */,
+				37994839043C5E1D02852426B7B0AB3E /* Pods-TRexAboutWindowControllerDemoTests-umbrella.h */,
+				ED7907A80BD5D570FACF1E69B93DA236 /* Pods-TRexAboutWindowControllerDemoTests.debug.xcconfig */,
+				6BA086F17683CE7095B086FB0F37B46C /* Pods-TRexAboutWindowControllerDemoTests.release.xcconfig */,
+			);
+			name = "Pods-TRexAboutWindowControllerDemoTests";
+			path = "Target Support Files/Pods-TRexAboutWindowControllerDemoTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */,
+				9E30F0887CCBDC80114B62CC3896556C /* Pods */,
+				98ACBBB09CC49467B3777027E1865352 /* Products */,
+				A5054B94384C81D8455438B02FA8B8B4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		835175A8F34ACD89C813B889DD7524C4 /* Pods-TRexAboutWindowControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9D195BBA75B6427F9E5C6D65EC1B3DAB /* Info.plist */,
+				A4D9A65D8FEEECE0F46A074DA3EF83D7 /* Pods-TRexAboutWindowControllerDemo.modulemap */,
+				C176FE4B3CE38BCA1B45D7E8D7005F5F /* Pods-TRexAboutWindowControllerDemo-acknowledgements.markdown */,
+				2D031361E8DA95DEF0DF16CB00666B4A /* Pods-TRexAboutWindowControllerDemo-acknowledgements.plist */,
+				1EB2770F2EBA4C17D50C7BC7EF4FB5EA /* Pods-TRexAboutWindowControllerDemo-dummy.m */,
+				315A45CF9A9C046868A917A0D643FAC5 /* Pods-TRexAboutWindowControllerDemo-frameworks.sh */,
+				57976E279D4D6C862F0065279CAE0B67 /* Pods-TRexAboutWindowControllerDemo-resources.sh */,
+				6C6D8A836152262241C5BA9D47BD988B /* Pods-TRexAboutWindowControllerDemo-umbrella.h */,
+				6A49877846C3DC53B449A2A964AD0AF6 /* Pods-TRexAboutWindowControllerDemo.debug.xcconfig */,
+				E99E69366EAAFD83165E96A719025A72 /* Pods-TRexAboutWindowControllerDemo.release.xcconfig */,
+			);
+			name = "Pods-TRexAboutWindowControllerDemo";
+			path = "Target Support Files/Pods-TRexAboutWindowControllerDemo";
+			sourceTree = "<group>";
+		};
+		98ACBBB09CC49467B3777027E1865352 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				507BFA7AA8BB57162A0F2FF11DF3FDFC /* Pods_TRexAboutWindowControllerDemo.framework */,
+				0348070147ED545F64C009716C473F06 /* Pods_TRexAboutWindowControllerDemoTests.framework */,
+				41991B8BB6CB566BB09212A164DE4001 /* Pods_TRexAboutWindowControllerDemoUITests.framework */,
+				F325E9215C790D9089106261F0A18C4D /* TRexAboutWindowController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E30F0887CCBDC80114B62CC3896556C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03BE1619FADC4CE08EDC8B7AFBFA644F /* TRexAboutWindowController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A5054B94384C81D8455438B02FA8B8B4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				835175A8F34ACD89C813B889DD7524C4 /* Pods-TRexAboutWindowControllerDemo */,
+				71A8845A196F6B67A2952BC5A0D2258B /* Pods-TRexAboutWindowControllerDemoTests */,
+				B42294662AFE29DA46748144E0E4CDA5 /* Pods-TRexAboutWindowControllerDemoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B42294662AFE29DA46748144E0E4CDA5 /* Pods-TRexAboutWindowControllerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D13C5965E24ED50AE6AC27CF8E30ECE /* Info.plist */,
+				3356901E5D1030FB08E790FE2C4DD142 /* Pods-TRexAboutWindowControllerDemoUITests.modulemap */,
+				B673EFFE99D4CEB7B75D0FC472BD70A0 /* Pods-TRexAboutWindowControllerDemoUITests-acknowledgements.markdown */,
+				8D898507E3C3F241CBD63784648BFD9C /* Pods-TRexAboutWindowControllerDemoUITests-acknowledgements.plist */,
+				4F57F6628FAA27900421BE44CA15BCD7 /* Pods-TRexAboutWindowControllerDemoUITests-dummy.m */,
+				EE8AF97723597D9E4B603B34F804D6FA /* Pods-TRexAboutWindowControllerDemoUITests-frameworks.sh */,
+				01F4E2C9D9A0DA45FF7A9AFB6AC3E2FC /* Pods-TRexAboutWindowControllerDemoUITests-resources.sh */,
+				EA3FBC4BCE83C84570BEA12F758DD20B /* Pods-TRexAboutWindowControllerDemoUITests-umbrella.h */,
+				9942DCB6938B37908ABF00672AA49D94 /* Pods-TRexAboutWindowControllerDemoUITests.debug.xcconfig */,
+				8AB5218290589248C828F50EA58894F9 /* Pods-TRexAboutWindowControllerDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-TRexAboutWindowControllerDemoUITests";
+			path = "Target Support Files/Pods-TRexAboutWindowControllerDemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04C7F0DC17FED7D0B68C0AB1F552276A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5195C78B8C30B35F59C17FAD5ACB4093 /* TRexAboutWindowController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27A8E9DE93DFEFC26D09E1F965D551D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C97FC22502403BEE4530F3AE3A5303 /* Pods-TRexAboutWindowControllerDemoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F61A65F2ABD1AFE4C51B99C6F5643A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E1FBB6396459C8306F3FC1865B6009 /* Pods-TRexAboutWindowControllerDemoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F27CABBBF1E65C5A0A8A69F34CBC4CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053D72856B4A49A12AFFA26879610B8E /* Pods-TRexAboutWindowControllerDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		591D7710FD2F2B7DEF99BD3F2CBF7E1E /* TRexAboutWindowController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B37A0C40D93540D802E001828C7ECA0 /* Build configuration list for PBXNativeTarget "TRexAboutWindowController" */;
+			buildPhases = (
+				637849155A77432E10B478FFB8436BCA /* Sources */,
+				CCB7B9D57098E7929DBDC0DCFF87D8B0 /* Frameworks */,
+				04C7F0DC17FED7D0B68C0AB1F552276A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRexAboutWindowController;
+			productName = TRexAboutWindowController;
+			productReference = F325E9215C790D9089106261F0A18C4D /* TRexAboutWindowController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5D6626FB8E22B0E86C526AD7379B848F /* Pods-TRexAboutWindowControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E24D986A18E114F97C5FF5254789C43 /* Build configuration list for PBXNativeTarget "Pods-TRexAboutWindowControllerDemo" */;
+			buildPhases = (
+				6CADC66AA7FBFFD9773611DB9AE9BA20 /* Sources */,
+				0F29E79859B8AB8B1C90FA99468C772D /* Frameworks */,
+				8F27CABBBF1E65C5A0A8A69F34CBC4CB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C6BF69476653BCE3552FE239AE2DAFC /* PBXTargetDependency */,
+			);
+			name = "Pods-TRexAboutWindowControllerDemo";
+			productName = "Pods-TRexAboutWindowControllerDemo";
+			productReference = 507BFA7AA8BB57162A0F2FF11DF3FDFC /* Pods_TRexAboutWindowControllerDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		89A0AAA608C33B5FA80BC116DD938066 /* Pods-TRexAboutWindowControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C4FB0D356F3D157B2D373E6E078103E /* Build configuration list for PBXNativeTarget "Pods-TRexAboutWindowControllerDemoTests" */;
+			buildPhases = (
+				AE861CFBEB323EE55754E90696E5ADE2 /* Sources */,
+				777A0703A502017699A7CA8E65FBC297 /* Frameworks */,
+				27A8E9DE93DFEFC26D09E1F965D551D1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TRexAboutWindowControllerDemoTests";
+			productName = "Pods-TRexAboutWindowControllerDemoTests";
+			productReference = 0348070147ED545F64C009716C473F06 /* Pods_TRexAboutWindowControllerDemoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E905445CDEBCADF6E99676FDA234ECB1 /* Pods-TRexAboutWindowControllerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CCA28E4C2F6DDC83E04EDF875579301 /* Build configuration list for PBXNativeTarget "Pods-TRexAboutWindowControllerDemoUITests" */;
+			buildPhases = (
+				D8B99E24836432143821846E111E7B03 /* Sources */,
+				C14B2A9DEF42636D8022A3F5AB937EC0 /* Frameworks */,
+				4F61A65F2ABD1AFE4C51B99C6F5643A4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TRexAboutWindowControllerDemoUITests";
+			productName = "Pods-TRexAboutWindowControllerDemoUITests";
+			productReference = 41991B8BB6CB566BB09212A164DE4001 /* Pods_TRexAboutWindowControllerDemoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 98ACBBB09CC49467B3777027E1865352 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D6626FB8E22B0E86C526AD7379B848F /* Pods-TRexAboutWindowControllerDemo */,
+				89A0AAA608C33B5FA80BC116DD938066 /* Pods-TRexAboutWindowControllerDemoTests */,
+				E905445CDEBCADF6E99676FDA234ECB1 /* Pods-TRexAboutWindowControllerDemoUITests */,
+				591D7710FD2F2B7DEF99BD3F2CBF7E1E /* TRexAboutWindowController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		637849155A77432E10B478FFB8436BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982741A7B4127BE263699EBDBBE77D95 /* PFAboutWindow.xib in Sources */,
+				996749DE799E9DB6E83E2320744D54AC /* TRexAboutWindowController-dummy.m in Sources */,
+				6C323A2F3AAF048604B9159E19AEC3F1 /* TRexAboutWindowController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CADC66AA7FBFFD9773611DB9AE9BA20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE2ADDB628560494E099F8F8D8BA4C9 /* Pods-TRexAboutWindowControllerDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE861CFBEB323EE55754E90696E5ADE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F363901BE7E6A84DAC6579B6B24B3C /* Pods-TRexAboutWindowControllerDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8B99E24836432143821846E111E7B03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613B415C315953936881D2C18678A321 /* Pods-TRexAboutWindowControllerDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C6BF69476653BCE3552FE239AE2DAFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TRexAboutWindowController;
+			target = 591D7710FD2F2B7DEF99BD3F2CBF7E1E /* TRexAboutWindowController */;
+			targetProxy = 02C28A3978CBDC42D043F2FE6C1616DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19080344215D81F22AF4D3A5CB84E985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BA086F17683CE7095B086FB0F37B46C /* Pods-TRexAboutWindowControllerDemoTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TRexAboutWindowControllerDemoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-TRexAboutWindowControllerDemoTests/Pods-TRexAboutWindowControllerDemoTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TRexAboutWindowControllerDemoTests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A5F1ADCFCADCC13B1852A9F6EDF5750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9942DCB6938B37908ABF00672AA49D94 /* Pods-TRexAboutWindowControllerDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TRexAboutWindowControllerDemoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-TRexAboutWindowControllerDemoUITests/Pods-TRexAboutWindowControllerDemoUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TRexAboutWindowControllerDemoUITests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4907EAB0868E73CCC72FCDDB6921349C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E97161BB5FC1196EBA116C77A4416FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 956C27704A691C825918B5AA7687C40A /* TRexAboutWindowController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TRexAboutWindowController/TRexAboutWindowController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TRexAboutWindowController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/TRexAboutWindowController/TRexAboutWindowController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TRexAboutWindowController;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		69C012360A4D0A1DA8FA7EB6E8924B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6C3EFB96499A185F5724A6A69F45C768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED7907A80BD5D570FACF1E69B93DA236 /* Pods-TRexAboutWindowControllerDemoTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TRexAboutWindowControllerDemoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-TRexAboutWindowControllerDemoTests/Pods-TRexAboutWindowControllerDemoTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TRexAboutWindowControllerDemoTests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB688F0F1EEA313BBDF1AEB2F36189A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AB5218290589248C828F50EA58894F9 /* Pods-TRexAboutWindowControllerDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TRexAboutWindowControllerDemoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-TRexAboutWindowControllerDemoUITests/Pods-TRexAboutWindowControllerDemoUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TRexAboutWindowControllerDemoUITests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B71693E6F658DB21DC5FB8758DD46003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 956C27704A691C825918B5AA7687C40A /* TRexAboutWindowController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TRexAboutWindowController/TRexAboutWindowController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TRexAboutWindowController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/TRexAboutWindowController/TRexAboutWindowController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TRexAboutWindowController;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D2CB732FA33A005F98E6F7994808A987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E99E69366EAAFD83165E96A719025A72 /* Pods-TRexAboutWindowControllerDemo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TRexAboutWindowControllerDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-TRexAboutWindowControllerDemo/Pods-TRexAboutWindowControllerDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TRexAboutWindowControllerDemo;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED0AADB8E3FC2928EC4450221F738FA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A49877846C3DC53B449A2A964AD0AF6 /* Pods-TRexAboutWindowControllerDemo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TRexAboutWindowControllerDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-TRexAboutWindowControllerDemo/Pods-TRexAboutWindowControllerDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TRexAboutWindowControllerDemo;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CCA28E4C2F6DDC83E04EDF875579301 /* Build configuration list for PBXNativeTarget "Pods-TRexAboutWindowControllerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A5F1ADCFCADCC13B1852A9F6EDF5750 /* Debug */,
+				AB688F0F1EEA313BBDF1AEB2F36189A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B37A0C40D93540D802E001828C7ECA0 /* Build configuration list for PBXNativeTarget "TRexAboutWindowController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E97161BB5FC1196EBA116C77A4416FE /* Debug */,
+				B71693E6F658DB21DC5FB8758DD46003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C012360A4D0A1DA8FA7EB6E8924B17 /* Debug */,
+				4907EAB0868E73CCC72FCDDB6921349C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C4FB0D356F3D157B2D373E6E078103E /* Build configuration list for PBXNativeTarget "Pods-TRexAboutWindowControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C3EFB96499A185F5724A6A69F45C768 /* Debug */,
+				19080344215D81F22AF4D3A5CB84E985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E24D986A18E114F97C5FF5254789C43 /* Build configuration list for PBXNativeTarget "Pods-TRexAboutWindowControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0AADB8E3FC2928EC4450221F738FA0 /* Debug */,
+				D2CB732FA33A005F98E6F7994808A987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

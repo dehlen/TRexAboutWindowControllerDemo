@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BDB0464357DD124AA666F49 /* Pods_TRexAboutWindowControllerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAD09685EEDA65824EAFC9A /* Pods_TRexAboutWindowControllerDemo.framework */; };
 		403B47BD1CB7CB0F00D2BAFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B47BC1CB7CB0F00D2BAFB /* AppDelegate.swift */; };
 		403B47BF1CB7CB0F00D2BAFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B47BE1CB7CB0F00D2BAFB /* ViewController.swift */; };
 		403B47C11CB7CB0F00D2BAFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403B47C01CB7CB0F00D2BAFB /* Assets.xcassets */; };
 		403B47C41CB7CB0F00D2BAFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 403B47C21CB7CB0F00D2BAFB /* Main.storyboard */; };
 		403B47CF1CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B47CE1CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoTests.swift */; };
 		403B47DA1CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B47D91CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoUITests.swift */; };
+		40BF2FCC1CB7CB8600B224CA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 40BF2FCA1CB7CB8600B224CA /* Credits.rtf */; };
+		40BF2FCD1CB7CB8600B224CA /* EULA.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 40BF2FCB1CB7CB8600B224CA /* EULA.rtf */; };
+		55018E28B43FC2A0FC4220FF /* Pods_TRexAboutWindowControllerDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F98EE35949D09BC84CA838 /* Pods_TRexAboutWindowControllerDemoUITests.framework */; };
+		59473D7EC8266806F063244F /* Pods_TRexAboutWindowControllerDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C18ECF45F241D4C94C85C803 /* Pods_TRexAboutWindowControllerDemoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0592A439CC31A90C82CE6520 /* Pods-TRexAboutWindowControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRexAboutWindowControllerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRexAboutWindowControllerDemo/Pods-TRexAboutWindowControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		0A26B327795A2F6A776ECE03 /* Pods-TRexAboutWindowControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRexAboutWindowControllerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRexAboutWindowControllerDemo/Pods-TRexAboutWindowControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		403B47B91CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRexAboutWindowControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		403B47BC1CB7CB0F00D2BAFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		403B47BE1CB7CB0F00D2BAFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +52,15 @@
 		403B47D51CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRexAboutWindowControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		403B47D91CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRexAboutWindowControllerDemoUITests.swift; sourceTree = "<group>"; };
 		403B47DB1CB7CB0F00D2BAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40BF2FCA1CB7CB8600B224CA /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		40BF2FCB1CB7CB8600B224CA /* EULA.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = EULA.rtf; sourceTree = "<group>"; };
+		51651717DF40D3B7A5E34A94 /* Pods-TRexAboutWindowControllerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRexAboutWindowControllerDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRexAboutWindowControllerDemoTests/Pods-TRexAboutWindowControllerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		5D75C0DD1A0504C086C792B6 /* Pods-TRexAboutWindowControllerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRexAboutWindowControllerDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRexAboutWindowControllerDemoUITests/Pods-TRexAboutWindowControllerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		657143A5FB15682E4F2C91B6 /* Pods-TRexAboutWindowControllerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRexAboutWindowControllerDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRexAboutWindowControllerDemoUITests/Pods-TRexAboutWindowControllerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6EAD09685EEDA65824EAFC9A /* Pods_TRexAboutWindowControllerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRexAboutWindowControllerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA049C4CC1F1B08B26EF2B41 /* Pods-TRexAboutWindowControllerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRexAboutWindowControllerDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRexAboutWindowControllerDemoTests/Pods-TRexAboutWindowControllerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C18ECF45F241D4C94C85C803 /* Pods_TRexAboutWindowControllerDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRexAboutWindowControllerDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F98EE35949D09BC84CA838 /* Pods_TRexAboutWindowControllerDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRexAboutWindowControllerDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BDB0464357DD124AA666F49 /* Pods_TRexAboutWindowControllerDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59473D7EC8266806F063244F /* Pods_TRexAboutWindowControllerDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55018E28B43FC2A0FC4220FF /* Pods_TRexAboutWindowControllerDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +98,8 @@
 				403B47CD1CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoTests */,
 				403B47D81CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoUITests */,
 				403B47BA1CB7CB0F00D2BAFB /* Products */,
+				CDF7DF37E27075BCF50F6378 /* Pods */,
+				D3D7BE6046EC7059EB40DCD6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +121,8 @@
 				403B47C01CB7CB0F00D2BAFB /* Assets.xcassets */,
 				403B47C21CB7CB0F00D2BAFB /* Main.storyboard */,
 				403B47C51CB7CB0F00D2BAFB /* Info.plist */,
+				40BF2FCA1CB7CB8600B224CA /* Credits.rtf */,
+				40BF2FCB1CB7CB8600B224CA /* EULA.rtf */,
 			);
 			path = TRexAboutWindowControllerDemo;
 			sourceTree = "<group>";
@@ -122,6 +145,29 @@
 			path = TRexAboutWindowControllerDemoUITests;
 			sourceTree = "<group>";
 		};
+		CDF7DF37E27075BCF50F6378 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A26B327795A2F6A776ECE03 /* Pods-TRexAboutWindowControllerDemo.debug.xcconfig */,
+				0592A439CC31A90C82CE6520 /* Pods-TRexAboutWindowControllerDemo.release.xcconfig */,
+				BA049C4CC1F1B08B26EF2B41 /* Pods-TRexAboutWindowControllerDemoTests.debug.xcconfig */,
+				51651717DF40D3B7A5E34A94 /* Pods-TRexAboutWindowControllerDemoTests.release.xcconfig */,
+				657143A5FB15682E4F2C91B6 /* Pods-TRexAboutWindowControllerDemoUITests.debug.xcconfig */,
+				5D75C0DD1A0504C086C792B6 /* Pods-TRexAboutWindowControllerDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D3D7BE6046EC7059EB40DCD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EAD09685EEDA65824EAFC9A /* Pods_TRexAboutWindowControllerDemo.framework */,
+				C18ECF45F241D4C94C85C803 /* Pods_TRexAboutWindowControllerDemoTests.framework */,
+				D0F98EE35949D09BC84CA838 /* Pods_TRexAboutWindowControllerDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 403B47DE1CB7CB0F00D2BAFB /* Build configuration list for PBXNativeTarget "TRexAboutWindowControllerDemo" */;
 			buildPhases = (
+				255DAAD897931FA799063BD9 /* 📦 Check Pods Manifest.lock */,
 				403B47B51CB7CB0F00D2BAFB /* Sources */,
 				403B47B61CB7CB0F00D2BAFB /* Frameworks */,
 				403B47B71CB7CB0F00D2BAFB /* Resources */,
+				0BEBBCB8E9267B8177F7ED9F /* 📦 Embed Pods Frameworks */,
+				E23E7AAD2B46334291371364 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 403B47E11CB7CB0F00D2BAFB /* Build configuration list for PBXNativeTarget "TRexAboutWindowControllerDemoTests" */;
 			buildPhases = (
+				5EB3B05003760A396AB21E88 /* 📦 Check Pods Manifest.lock */,
 				403B47C61CB7CB0F00D2BAFB /* Sources */,
 				403B47C71CB7CB0F00D2BAFB /* Frameworks */,
 				403B47C81CB7CB0F00D2BAFB /* Resources */,
+				7E0E5BC960B7849DB7CE916D /* 📦 Embed Pods Frameworks */,
+				CC833C8B7D65D42E866A354D /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 403B47E41CB7CB0F00D2BAFB /* Build configuration list for PBXNativeTarget "TRexAboutWindowControllerDemoUITests" */;
 			buildPhases = (
+				43FFBD73E9290F384B748785 /* 📦 Check Pods Manifest.lock */,
 				403B47D11CB7CB0F00D2BAFB /* Sources */,
 				403B47D21CB7CB0F00D2BAFB /* Frameworks */,
 				403B47D31CB7CB0F00D2BAFB /* Resources */,
+				8EEC176D1EE9BF694069BA96 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,6 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				403B47C11CB7CB0F00D2BAFB /* Assets.xcassets in Resources */,
+				40BF2FCD1CB7CB8600B224CA /* EULA.rtf in Resources */,
+				40BF2FCC1CB7CB8600B224CA /* Credits.rtf in Resources */,
 				403B47C41CB7CB0F00D2BAFB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,6 +302,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BEBBCB8E9267B8177F7ED9F /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRexAboutWindowControllerDemo/Pods-TRexAboutWindowControllerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		255DAAD897931FA799063BD9 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		43FFBD73E9290F384B748785 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5EB3B05003760A396AB21E88 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7E0E5BC960B7849DB7CE916D /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRexAboutWindowControllerDemoTests/Pods-TRexAboutWindowControllerDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EEC176D1EE9BF694069BA96 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRexAboutWindowControllerDemoUITests/Pods-TRexAboutWindowControllerDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC833C8B7D65D42E866A354D /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRexAboutWindowControllerDemoTests/Pods-TRexAboutWindowControllerDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E23E7AAD2B46334291371364 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRexAboutWindowControllerDemo/Pods-TRexAboutWindowControllerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		403B47B51CB7CB0F00D2BAFB /* Sources */ = {
@@ -384,6 +563,7 @@
 		};
 		403B47DF1CB7CB0F00D2BAFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A26B327795A2F6A776ECE03 /* Pods-TRexAboutWindowControllerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -396,6 +576,7 @@
 		};
 		403B47E01CB7CB0F00D2BAFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0592A439CC31A90C82CE6520 /* Pods-TRexAboutWindowControllerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -408,6 +589,7 @@
 		};
 		403B47E21CB7CB0F00D2BAFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA049C4CC1F1B08B26EF2B41 /* Pods-TRexAboutWindowControllerDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -421,6 +603,7 @@
 		};
 		403B47E31CB7CB0F00D2BAFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51651717DF40D3B7A5E34A94 /* Pods-TRexAboutWindowControllerDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -434,6 +617,7 @@
 		};
 		403B47E51CB7CB0F00D2BAFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 657143A5FB15682E4F2C91B6 /* Pods-TRexAboutWindowControllerDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = TRexAboutWindowControllerDemoUITests/Info.plist;
@@ -446,6 +630,7 @@
 		};
 		403B47E61CB7CB0F00D2BAFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D75C0DD1A0504C086C792B6 /* Pods-TRexAboutWindowControllerDemoUITests.release.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = TRexAboutWindowControllerDemoUITests/Info.plist;
@@ -475,6 +660,7 @@
 				403B47E01CB7CB0F00D2BAFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		403B47E11CB7CB0F00D2BAFB /* Build configuration list for PBXNativeTarget "TRexAboutWindowControllerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +669,7 @@
 				403B47E31CB7CB0F00D2BAFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		403B47E41CB7CB0F00D2BAFB /* Build configuration list for PBXNativeTarget "TRexAboutWindowControllerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +678,7 @@
 				403B47E61CB7CB0F00D2BAFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

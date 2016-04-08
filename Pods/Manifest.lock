@@ -1,0 +1,12 @@
+PODS:
+  - TRexAboutWindowController (1.4)
+
+DEPENDENCIES:
+  - TRexAboutWindowController
+
+SPEC CHECKSUMS:
+  TRexAboutWindowController: a626e33ec4ec6dcddb15cb568f768570ce1f6cf4
+
+PODFILE CHECKSUM: ae381907190b62724bb8603bdaf9d9c149a3ba05
+
+COCOAPODS: 1.0.0.beta.6
