@@ -18,11 +18,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         super.init()
     }
     
-    @IBAction func showAboutWindow(sender:AnyObject) {
-        self.aboutWindowController.appURL = NSURL(string:"https://github.com/T-Rex-Editor/")!
+    @IBAction func showAboutWindow(_ sender:AnyObject) {
+        self.aboutWindowController.appURL = URL(string:"https://github.com/T-Rex-Editor/")!
         self.aboutWindowController.appName = "TRex Demo"
         let font:NSFont? = NSFont(name: "HelveticaNeue", size: 11.0)
-        let color:NSColor? = NSColor.tertiaryLabelColor()
+        let color:NSColor? = NSColor.tertiaryLabelColor
         let attribs:[String:AnyObject] = [NSForegroundColorAttributeName:color!,
                                           NSFontAttributeName:font!]
         
@@ -32,11 +32,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         self.aboutWindowController .showWindow(nil)
     }
     
-    func applicationDidFinishLaunching(aNotification: NSNotification) {
+    func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
     }
     
-    func applicationWillTerminate(aNotification: NSNotification) {
+    func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
     }
     

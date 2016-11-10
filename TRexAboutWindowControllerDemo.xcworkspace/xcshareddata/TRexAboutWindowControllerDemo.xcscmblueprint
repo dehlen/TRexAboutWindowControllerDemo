@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "94C0B54BF17E81AAAEB3DF8E14E14DDF1DD78331",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "94C0B54BF17E81AAAEB3DF8E14E14DDF1DD78331" : 9223372036854775807,
+    "1695375FE36ECD6F27F6A8FE8D4E51ED24CF1843" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AF741E47-C1E5-462F-B390-67F39C088398",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "94C0B54BF17E81AAAEB3DF8E14E14DDF1DD78331" : "TRexAboutWindowControllerDemo\/",
+    "1695375FE36ECD6F27F6A8FE8D4E51ED24CF1843" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TRexAboutWindowControllerDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TRexAboutWindowControllerDemo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dehlen\/TRexAboutWindowController.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1695375FE36ECD6F27F6A8FE8D4E51ED24CF1843"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dehlen\/TRexAboutWindowControllerDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "94C0B54BF17E81AAAEB3DF8E14E14DDF1DD78331"
+    }
+  ]
+}
