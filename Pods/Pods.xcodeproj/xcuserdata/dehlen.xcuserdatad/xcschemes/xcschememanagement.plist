@@ -9,16 +9,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-TRexAboutWindowControllerDemoTests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-TRexAboutWindowControllerDemoUITests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>TRexAboutWindowController.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>591D7710FD2F2B7DEF99BD3F2CBF7E1E</key>
+		<key>D83D34961103FA92CC7BFDA8A3DC1B4D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5D6626FB8E22B0E86C526AD7379B848F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>89A0AAA608C33B5FA80BC116DD938066</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E905445CDEBCADF6E99676FDA234ECB1</key>
+		<key>F4E0E38F58E0FEFDEE7D5AA5ACF7E2CB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

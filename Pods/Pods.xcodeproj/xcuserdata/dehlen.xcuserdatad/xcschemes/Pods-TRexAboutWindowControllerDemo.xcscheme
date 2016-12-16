@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0810"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5D6626FB8E22B0E86C526AD7379B848F"
+               BlueprintIdentifier = "D83D34961103FA92CC7BFDA8A3DC1B4D"
                BuildableName = "Pods_TRexAboutWindowControllerDemo.framework"
                BlueprintName = "Pods-TRexAboutWindowControllerDemo"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5D6626FB8E22B0E86C526AD7379B848F"
+            BlueprintIdentifier = "D83D34961103FA92CC7BFDA8A3DC1B4D"
             BuildableName = "Pods_TRexAboutWindowControllerDemo.framework"
             BlueprintName = "Pods-TRexAboutWindowControllerDemo"
             ReferencedContainer = "container:Pods.xcodeproj">

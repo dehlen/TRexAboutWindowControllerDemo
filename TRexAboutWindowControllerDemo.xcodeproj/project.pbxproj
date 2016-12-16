@@ -12,30 +12,9 @@
 		403B47BF1CB7CB0F00D2BAFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B47BE1CB7CB0F00D2BAFB /* ViewController.swift */; };
 		403B47C11CB7CB0F00D2BAFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403B47C01CB7CB0F00D2BAFB /* Assets.xcassets */; };
 		403B47C41CB7CB0F00D2BAFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 403B47C21CB7CB0F00D2BAFB /* Main.storyboard */; };
-		403B47CF1CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B47CE1CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoTests.swift */; };
-		403B47DA1CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B47D91CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoUITests.swift */; };
 		40BF2FCC1CB7CB8600B224CA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 40BF2FCA1CB7CB8600B224CA /* Credits.rtf */; };
 		40BF2FCD1CB7CB8600B224CA /* EULA.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 40BF2FCB1CB7CB8600B224CA /* EULA.rtf */; };
-		55018E28B43FC2A0FC4220FF /* Pods_TRexAboutWindowControllerDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F98EE35949D09BC84CA838 /* Pods_TRexAboutWindowControllerDemoUITests.framework */; };
-		59473D7EC8266806F063244F /* Pods_TRexAboutWindowControllerDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C18ECF45F241D4C94C85C803 /* Pods_TRexAboutWindowControllerDemoTests.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		403B47CB1CB7CB0F00D2BAFB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 403B47B11CB7CB0F00D2BAFB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 403B47B81CB7CB0F00D2BAFB;
-			remoteInfo = TRexAboutWindowControllerDemo;
-		};
-		403B47D61CB7CB0F00D2BAFB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 403B47B11CB7CB0F00D2BAFB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 403B47B81CB7CB0F00D2BAFB;
-			remoteInfo = TRexAboutWindowControllerDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0592A439CC31A90C82CE6520 /* Pods-TRexAboutWindowControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRexAboutWindowControllerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRexAboutWindowControllerDemo/Pods-TRexAboutWindowControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -46,19 +25,9 @@
 		403B47C01CB7CB0F00D2BAFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		403B47C31CB7CB0F00D2BAFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		403B47C51CB7CB0F00D2BAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		403B47CA1CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRexAboutWindowControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		403B47CE1CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRexAboutWindowControllerDemoTests.swift; sourceTree = "<group>"; };
-		403B47D01CB7CB0F00D2BAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		403B47D51CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRexAboutWindowControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		403B47D91CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRexAboutWindowControllerDemoUITests.swift; sourceTree = "<group>"; };
-		403B47DB1CB7CB0F00D2BAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40BF2FCA1CB7CB8600B224CA /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 		40BF2FCB1CB7CB8600B224CA /* EULA.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = EULA.rtf; sourceTree = "<group>"; };
-		51651717DF40D3B7A5E34A94 /* Pods-TRexAboutWindowControllerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRexAboutWindowControllerDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRexAboutWindowControllerDemoTests/Pods-TRexAboutWindowControllerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		5D75C0DD1A0504C086C792B6 /* Pods-TRexAboutWindowControllerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRexAboutWindowControllerDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRexAboutWindowControllerDemoUITests/Pods-TRexAboutWindowControllerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		657143A5FB15682E4F2C91B6 /* Pods-TRexAboutWindowControllerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRexAboutWindowControllerDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRexAboutWindowControllerDemoUITests/Pods-TRexAboutWindowControllerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6EAD09685EEDA65824EAFC9A /* Pods_TRexAboutWindowControllerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRexAboutWindowControllerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA049C4CC1F1B08B26EF2B41 /* Pods-TRexAboutWindowControllerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRexAboutWindowControllerDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRexAboutWindowControllerDemoTests/Pods-TRexAboutWindowControllerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C18ECF45F241D4C94C85C803 /* Pods_TRexAboutWindowControllerDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRexAboutWindowControllerDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F98EE35949D09BC84CA838 /* Pods_TRexAboutWindowControllerDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRexAboutWindowControllerDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -72,22 +41,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		403B47C71CB7CB0F00D2BAFB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				59473D7EC8266806F063244F /* Pods_TRexAboutWindowControllerDemoTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		403B47D21CB7CB0F00D2BAFB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				55018E28B43FC2A0FC4220FF /* Pods_TRexAboutWindowControllerDemoUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -95,8 +48,6 @@
 			isa = PBXGroup;
 			children = (
 				403B47BB1CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemo */,
-				403B47CD1CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoTests */,
-				403B47D81CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoUITests */,
 				403B47BA1CB7CB0F00D2BAFB /* Products */,
 				CDF7DF37E27075BCF50F6378 /* Pods */,
 				D3D7BE6046EC7059EB40DCD6 /* Frameworks */,
@@ -107,8 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				403B47B91CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemo.app */,
-				403B47CA1CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoTests.xctest */,
-				403B47D51CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,33 +76,11 @@
 			path = TRexAboutWindowControllerDemo;
 			sourceTree = "<group>";
 		};
-		403B47CD1CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				403B47CE1CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoTests.swift */,
-				403B47D01CB7CB0F00D2BAFB /* Info.plist */,
-			);
-			path = TRexAboutWindowControllerDemoTests;
-			sourceTree = "<group>";
-		};
-		403B47D81CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				403B47D91CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoUITests.swift */,
-				403B47DB1CB7CB0F00D2BAFB /* Info.plist */,
-			);
-			path = TRexAboutWindowControllerDemoUITests;
-			sourceTree = "<group>";
-		};
 		CDF7DF37E27075BCF50F6378 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				0A26B327795A2F6A776ECE03 /* Pods-TRexAboutWindowControllerDemo.debug.xcconfig */,
 				0592A439CC31A90C82CE6520 /* Pods-TRexAboutWindowControllerDemo.release.xcconfig */,
-				BA049C4CC1F1B08B26EF2B41 /* Pods-TRexAboutWindowControllerDemoTests.debug.xcconfig */,
-				51651717DF40D3B7A5E34A94 /* Pods-TRexAboutWindowControllerDemoTests.release.xcconfig */,
-				657143A5FB15682E4F2C91B6 /* Pods-TRexAboutWindowControllerDemoUITests.debug.xcconfig */,
-				5D75C0DD1A0504C086C792B6 /* Pods-TRexAboutWindowControllerDemoUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -191,48 +118,6 @@
 			productReference = 403B47B91CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		403B47C91CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 403B47E11CB7CB0F00D2BAFB /* Build configuration list for PBXNativeTarget "TRexAboutWindowControllerDemoTests" */;
-			buildPhases = (
-				5EB3B05003760A396AB21E88 /* [CP] Check Pods Manifest.lock */,
-				403B47C61CB7CB0F00D2BAFB /* Sources */,
-				403B47C71CB7CB0F00D2BAFB /* Frameworks */,
-				403B47C81CB7CB0F00D2BAFB /* Resources */,
-				7E0E5BC960B7849DB7CE916D /* [CP] Embed Pods Frameworks */,
-				CC833C8B7D65D42E866A354D /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				403B47CC1CB7CB0F00D2BAFB /* PBXTargetDependency */,
-			);
-			name = TRexAboutWindowControllerDemoTests;
-			productName = TRexAboutWindowControllerDemoTests;
-			productReference = 403B47CA1CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		403B47D41CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 403B47E41CB7CB0F00D2BAFB /* Build configuration list for PBXNativeTarget "TRexAboutWindowControllerDemoUITests" */;
-			buildPhases = (
-				43FFBD73E9290F384B748785 /* [CP] Check Pods Manifest.lock */,
-				403B47D11CB7CB0F00D2BAFB /* Sources */,
-				403B47D21CB7CB0F00D2BAFB /* Frameworks */,
-				403B47D31CB7CB0F00D2BAFB /* Resources */,
-				8EEC176D1EE9BF694069BA96 /* [CP] Copy Pods Resources */,
-				5273E2F464013734AA29F784 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				403B47D71CB7CB0F00D2BAFB /* PBXTargetDependency */,
-			);
-			name = TRexAboutWindowControllerDemoUITests;
-			productName = TRexAboutWindowControllerDemoUITests;
-			productReference = 403B47D51CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -240,22 +125,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "David Ehlen";
 				TargetAttributes = {
 					403B47B81CB7CB0F00D2BAFB = {
 						CreatedOnToolsVersion = 7.3;
-						LastSwiftMigration = 0810;
-					};
-					403B47C91CB7CB0F00D2BAFB = {
-						CreatedOnToolsVersion = 7.3;
-						LastSwiftMigration = 0810;
-						TestTargetID = 403B47B81CB7CB0F00D2BAFB;
-					};
-					403B47D41CB7CB0F00D2BAFB = {
-						CreatedOnToolsVersion = 7.3;
-						LastSwiftMigration = 0810;
-						TestTargetID = 403B47B81CB7CB0F00D2BAFB;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -273,8 +148,6 @@
 			projectRoot = "";
 			targets = (
 				403B47B81CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemo */,
-				403B47C91CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoTests */,
-				403B47D41CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -288,20 +161,6 @@
 				40BF2FCD1CB7CB8600B224CA /* EULA.rtf in Resources */,
 				40BF2FCC1CB7CB8600B224CA /* Credits.rtf in Resources */,
 				403B47C41CB7CB0F00D2BAFB /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		403B47C81CB7CB0F00D2BAFB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		403B47D31CB7CB0F00D2BAFB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,96 +197,6 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		43FFBD73E9290F384B748785 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		5273E2F464013734AA29F784 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRexAboutWindowControllerDemoUITests/Pods-TRexAboutWindowControllerDemoUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5EB3B05003760A396AB21E88 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		7E0E5BC960B7849DB7CE916D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRexAboutWindowControllerDemoTests/Pods-TRexAboutWindowControllerDemoTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8EEC176D1EE9BF694069BA96 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRexAboutWindowControllerDemoUITests/Pods-TRexAboutWindowControllerDemoUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CC833C8B7D65D42E866A354D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRexAboutWindowControllerDemoTests/Pods-TRexAboutWindowControllerDemoTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		E23E7AAD2B46334291371364 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -455,36 +224,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		403B47C61CB7CB0F00D2BAFB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				403B47CF1CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		403B47D11CB7CB0F00D2BAFB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				403B47DA1CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemoUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		403B47CC1CB7CB0F00D2BAFB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 403B47B81CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemo */;
-			targetProxy = 403B47CB1CB7CB0F00D2BAFB /* PBXContainerItemProxy */;
-		};
-		403B47D71CB7CB0F00D2BAFB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 403B47B81CB7CB0F00D2BAFB /* TRexAboutWindowControllerDemo */;
-			targetProxy = 403B47D61CB7CB0F00D2BAFB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		403B47C21CB7CB0F00D2BAFB /* Main.storyboard */ = {
@@ -596,7 +336,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.david-ehlen.TRexAboutWindowControllerDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0.1;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -611,65 +351,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.david-ehlen.TRexAboutWindowControllerDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0.1;
-			};
-			name = Release;
-		};
-		403B47E21CB7CB0F00D2BAFB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA049C4CC1F1B08B26EF2B41 /* Pods-TRexAboutWindowControllerDemoTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = TRexAboutWindowControllerDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.david-ehlen.TRexAboutWindowControllerDemoTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0.1;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TRexAboutWindowControllerDemo.app/Contents/MacOS/TRexAboutWindowControllerDemo";
-			};
-			name = Debug;
-		};
-		403B47E31CB7CB0F00D2BAFB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51651717DF40D3B7A5E34A94 /* Pods-TRexAboutWindowControllerDemoTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = TRexAboutWindowControllerDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.david-ehlen.TRexAboutWindowControllerDemoTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0.1;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TRexAboutWindowControllerDemo.app/Contents/MacOS/TRexAboutWindowControllerDemo";
-			};
-			name = Release;
-		};
-		403B47E51CB7CB0F00D2BAFB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 657143A5FB15682E4F2C91B6 /* Pods-TRexAboutWindowControllerDemoUITests.debug.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = TRexAboutWindowControllerDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.david-ehlen.TRexAboutWindowControllerDemoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0.1;
-				TEST_TARGET_NAME = TRexAboutWindowControllerDemo;
-			};
-			name = Debug;
-		};
-		403B47E61CB7CB0F00D2BAFB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D75C0DD1A0504C086C792B6 /* Pods-TRexAboutWindowControllerDemoUITests.release.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = TRexAboutWindowControllerDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.david-ehlen.TRexAboutWindowControllerDemoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0.1;
-				TEST_TARGET_NAME = TRexAboutWindowControllerDemo;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -690,24 +372,6 @@
 			buildConfigurations = (
 				403B47DF1CB7CB0F00D2BAFB /* Debug */,
 				403B47E01CB7CB0F00D2BAFB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		403B47E11CB7CB0F00D2BAFB /* Build configuration list for PBXNativeTarget "TRexAboutWindowControllerDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				403B47E21CB7CB0F00D2BAFB /* Debug */,
-				403B47E31CB7CB0F00D2BAFB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		403B47E41CB7CB0F00D2BAFB /* Build configuration list for PBXNativeTarget "TRexAboutWindowControllerDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				403B47E51CB7CB0F00D2BAFB /* Debug */,
-				403B47E61CB7CB0F00D2BAFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
